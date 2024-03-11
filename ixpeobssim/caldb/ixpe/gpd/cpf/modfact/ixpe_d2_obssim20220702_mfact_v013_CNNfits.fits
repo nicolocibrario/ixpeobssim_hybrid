@@ -1,0 +1,88 @@
+SIMPLE  =                    T / conforms to FITS standard                      BITPIX  =                    8 / array data type                                NAXIS   =                    0 / number of array dimensions                     EXTEND  =                    T                                                  CREATOR = 'mkixpeirf.py ver. 25.8.0' / s/w task which wrote this dataset        DATE    = '2022-05-02T12:59:27.245569' / file creation date                     TELESCOP= 'IXPE    '           / Telescope name                                 INSTRUME= 'GPD     '           / Instrument name                                DETNAM  = 'DU1     '           / Name of the logical detector unit              DET_ID  = 'DU_FM2  '           / Name of the physical detector unit             IRFTYPE = 'modf    '           / type of the file                               CHECKSUM= '9LkFCJj99JjEAJj9'   / HDU checksum updated 2022-05-02T14:59:27       DATASUM = '0       '           / data unit checksum updated 2022-05-02T14:59:27 COMMENT Standard response functions, default for simulation and analysis        COMMENT GPD gap thickness: 1.0000 cm                                            COMMENT GPD Be window thickness: 50.0 um                                        COMMENT GPD window alumination thickness: 53 nm                                 COMMENT GPD including contaminants in the Be window: {'Al': 300.0, 'BeO': 6000.0COMMENT , 'B': 3.0, 'Cd': 2.0, 'Ca': 100.0, 'C': 400.0, 'Cr': 100.0, 'Co': 10.0,COMMENT  'Cu': 100.0, 'Fe': 800.0, 'Pb': 20.0, 'Li': 3.0, 'Mg': 490.0, 'Mn': 100COMMENT .0, 'Mo': 20.0, 'Ni': 100.0, 'Si': 300.0, 'Ag': 10.0, 'Th': 2.0, 'U': 14COMMENT 0.0}                                                                    COMMENT GPD filling temperature: 20.00 deg C                                    COMMENT GPD DME filling pressure: 800.0 mbar                                    COMMENT GPD DME asymptotic pressure: 645.0 mbar                                 COMMENT GPD DME asymptotic density: 1.2454e-03                                  COMMENT Auxiliary file iteration: v003                                          COMMENT MMA effective area from "mirror_aeff_calib_20210831.txt"                COMMENT UV filter transmission from "uv_filter_nominal_transmission.txt"        END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                   12 / length of dimension 1                          NAXIS2  =                  275 / length of dimension 2                          PCOUNT  =                    0 / number of group parameters                     GCOUNT  =                    1 / number of groups                               TFIELDS =                    3 / number of table fields                         TTYPE1  = 'ENERG_LO'                                                            TFORM1  = 'E       '                                                            TUNIT1  = 'keV     '                                                            TTYPE2  = 'ENERG_HI'                                                            TFORM2  = 'E       '                                                            TUNIT2  = 'keV     '                                                            TTYPE3  = 'SPECRESP'                                                            TFORM3  = 'E       '                                                            EXTNAME = 'SPECRESP'           / Name of this binary table extension            HDUCLAS1= 'RESPONSE'           / dataset relates to spectral response           HDUCLAS2= 'SPECRESP'           / dataset contains spectral response             HDUCLASS= 'OGIP    '           / format conforms to OGIP standard               HDUVERS = '1.1.0   '           / Version of format (OGIP memo CAL/GEN/92-002a)  HDUDOC  = 'OGIP memos CAL/GEN/92-002 & 92-002a' / Documents describing the formaHDUVERS1= '1.0.0   '           / Obsolete - included for backwards compatibilityHDUVERS2= '1.1.0   '           / Obsolete - included for backwards compatibilityVERSION =                   11 / Extension version number                       FILENAME= 'ixpe_d1_obssim_mfact_v011.fits' / File name                          CCLS0001= 'CPF     '           / Dataset is a Calibration Product File          CDTP0001= 'DATA    '           / Calibration file contains data                 CCNM0001= 'MODFACT '           / Type of Calibration data                       CVSD0001= '2017-01-01'         / UTC date when file should first be used        CVST0001= '00:00:00'           / UTC time when file should first be used        CDES0001= 'IXPE DU1 Modulation Factor' / Description                            CBD10001= 'WEIGHT(NONE)'       / Parameter Boundary                             TELESCOP= 'IXPE    '           / Telescope name                                 INSTRUME= 'GPD     '           / Instrument name                                DETNAM  = 'DU1     '           / Name of the logical detector unit              DET_ID  = 'DU_FM2  '           / Name of the physical detector unit             IRFTYPE = 'modf    '           / type of the file                               CHECKSUM= '8eh58Zh38bh38Zh3'   / HDU checksum updated 2022-05-02T14:59:27       DATASUM = '947060845'          / data unit checksum updated 2022-05-02T14:59:27 COMMENT Standard response functions, default for simulation and analysis        COMMENT GPD gap thickness: 1.0000 cm                                            COMMENT GPD Be window thickness: 50.0 um                                        COMMENT GPD window alumination thickness: 53 nm                                 COMMENT GPD including contaminants in the Be window: {'Al': 300.0, 'BeO': 6000.0COMMENT , 'B': 3.0, 'Cd': 2.0, 'Ca': 100.0, 'C': 400.0, 'Cr': 100.0, 'Co': 10.0,COMMENT  'Cu': 100.0, 'Fe': 800.0, 'Pb': 20.0, 'Li': 3.0, 'Mg': 490.0, 'Mn': 100COMMENT .0, 'Mo': 20.0, 'Ni': 100.0, 'Si': 300.0, 'Ag': 10.0, 'Th': 2.0, 'U': 14COMMENT 0.0}                                                                    COMMENT GPD filling temperature: 20.00 deg C                                    COMMENT GPD DME filling pressure: 800.0 mbar                                    COMMENT GPD DME asymptotic pressure: 645.0 mbar                                 COMMENT GPD DME asymptotic density: 1.2454e-03                                  COMMENT Auxiliary file iteration: v003                                          COMMENT MMA effective area from "mirror_aeff_calib_20210831.txt"                COMMENT UV filter transmission from "uv_filter_nominal_transmission.txt"        END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ?Ä  ?Ö∏<#◊
+?Ö∏?ä=q<#◊
+?ä=q?è\)<#◊
+?è\)?îz·<#◊
+?îz·?ôôö<#◊
+?ôôö?û∏R<#◊
+?û∏R?£◊
+<#◊
+?£◊
+?®ı√<#◊
+?®ı√?Æ{<_»Ä?Æ{?≥33<®ì_?≥33?∏QÏ<·S]?∏QÏ?Ωp§=?Ωp§?¬è\=)Ü¡?¬è\?«Æ=Fπ?«Æ?ÃÃÕ=bêÁ?ÃÃÕ?—ÎÖ=)>?—ÎÖ?◊
+==çÁÿ?◊
+=?‹(ˆ=úBñ?‹(ˆ?·GÆ=™•T?·GÆ?Êff=πä?Êff?ÎÖ=«Ñ∞?ÎÖ?£◊=÷A?£◊?ı¬è=‰â¥?ı¬è?˙·H=ÛÉ?˙·H@   > ‹@   @è\>0@è\@∏>âÁ@∏@Æ>È„@Æ@
+=q>P;@
+=q@ÃÕ>%Ω+@ÃÕ@\)>-0@\)@ÎÖ>4´«@ÎÖ@z·><7[@z·@
+=>DH@
+=@ôö>L™@ôö@(ˆ>T#@(ˆ@∏R>\4Z@∏R@!GÆ>d7Û@!GÆ@#◊
+>lî@#◊
+@&ff>sô‡@&ff@(ı√>z«}@(ı√@+Ö>Äæà@+Ö@.{>É’z@.{@0£◊>ÜΩ]@0£◊@333>âŸ@333@5¬è>å"˘@5¬è@8QÏ>é¨À@8QÏ@:·H>ë#]@:·H@=p§>ìåº@=p§@@  >ïÓı@@  @Bè\>òN~@Bè\@E∏>ö´%@E∏@GÆ>ù¸@GÆ@J=q>üX@J=q@LÃÕ>°¶|@LÃÕ@O\)>£ÓH@O\)@QÎÖ>¶.ä@QÎÖ@Tz·>®fQ@Tz·@W
+=>™îØ@W
+=@Yôö>¨∏∂@Yôö@\(ˆ>Æ—w@\(ˆ@^∏R>∞ﬁ@^∏R@aGÆ>≤›m@aGÆ@c◊
+>¥Œƒ@c◊
+@fff>∂±@fff@hı√>∏ÉÇ@hı√@kÖ>∫E@kÖ@n{>ªıŒ@n{@p£◊>Ωõ{@p£◊@s33>ø7p@s33@u¬è>¿ @u¬è@xQÏ>¬S @xQÏ@z·H>√‘¸@z·H@}p§>≈N@}p§@Ä  >∆ød@Ä  @ÅGÆ>»)f@ÅGÆ@Çè\>…å{@Çè\@É◊
+> È@É◊
+@Ö∏>Ã?q@Ö∏@Üff>Õê@Üff@áÆ>Œ€v@áÆ@àı√>–!›@àı√@ä=q>—cπ@ä=q@ãÖ>“°p@ãÖ@åÃÕ>”€j@åÃÕ@é{>’
+@é{@è\)>÷E∏@è\)@ê£◊>◊v˛@ê£◊@ëÎÖ>ÿ¶Ù@ëÎÖ@ì33>Ÿ’∂@ì33@îz·>€6@îz·@ï¬è>‹/e@ï¬è@ó
+=>›Z4@ó
+=@òQÏ>ﬁÉó@òQÏ@ôôö>ﬂ´}@ôôö@ö·H>‡—Ÿ@ö·H@ú(ˆ>·ˆú@ú(ˆ@ùp§>„∏@ùp§@û∏R>‰;@û∏R@†  >ÂZ¬@†  @°GÆ>Êxì@°GÆ@¢è\>ÁîÉ@¢è\@£◊
+>ËÆÖ@£◊
+@•∏>È∆â@•∏@¶ff>Í‹Ç@¶ff@ßÆ>Îa@ßÆ@®ı√>Ì@®ı√@™=q>Óò@™=q@´Ö>Ô”@´Ö@¨ÃÕ>)∫@¨ÃÕ@Æ{>Ò2@@Æ{@Ø\)>Ú8V@Ø\)@∞£◊>Û;Ì@∞£◊@±ÎÖ>Ù<¯@±ÎÖ@≥33>ı;g@≥33@¥z·>ˆ7-@¥z·@µ¬è>˜0;@µ¬è@∑
+=>¯&É@∑
+=@∏QÏ>˘ˆ@∏QÏ@πôö>˙
+Ü@πôö@∫·H>˙¯$@∫·H@º(ˆ>˚‚√@º(ˆ@Ωp§>¸ T@Ωp§@æ∏R>˝Æ…@æ∏R@¿  >˛ê@¿  @¡GÆ>ˇn#@¡GÆ@¬è\? $v@¬è\@√◊
+? ê0@√◊
+@≈∏? ˙7@≈∏@∆ff?bÖ@∆ff@«Æ?…@«Æ@»ı√?-Ÿ@»ı√@ =q?ê–@ =q@ÀÖ?ÒÒ@ÀÖ@ÃÃÕ?Q5@ÃÃÕ@Œ{?Æî@Œ{@œ\)?
+@œ\)@–£◊?cä@–£◊@—ÎÖ?ª@—ÎÖ@”33?ó@”33@‘z·?d@‘z·@’¬è?µÉ@’¬è@◊
+=?€@◊
+=@ÿQÏ?R@ÿQÏ@Ÿôö?ù*@Ÿôö@⁄·H?Ê@⁄·H@‹(ˆ?,«@‹(ˆ@›p§?qB@›p§@ﬁ∏R?≥{@ﬁ∏R@‡  ?Ûk@‡  @·GÆ?1@·GÆ@‚è\?lT@‚è\@„◊
+?•>@„◊
+@Â∏?€¬@Â∏@Êff?	⁄@Êff@ÁÆ?	A~@ÁÆ@Ëı√?	p¶@Ëı√@Í=q?	ùM@Í=q@ÎÖ?	«i@ÎÖ@ÏÃÕ?	Óı@ÏÃÕ@Ó{?
+È@Ó{@Ô\)?
+6>@Ô\)@£◊?
+UÏ@£◊@ÒÎÖ?
+rÌ@ÒÎÖ@Û33?
+ç:@Û33@Ùz·?
+§À@Ùz·@ı¬è?
+πò@ı¬è@˜
+=?
+Àú@˜
+=@¯QÏ?
+⁄Œ@¯QÏ@˘ôö?
+Á'@˘ôö@˙·H?
+°@˙·H@¸(ˆ?
+˜4@¸(ˆ@˝p§?
+˙Ÿ@˝p§@˛∏R?
+˚â@˛∏RA   ?
+˘<A   A £◊?
+ÛÎA £◊AGÆ?
+ÎêAGÆAÎÖ?
+‡#AÎÖAè\?
+—úAè\A33?
+øıA33A◊
+?
+´'A◊
+Az·?
+ì*Az·A∏?
+w˜A∏A¬è?
+YáA¬èAff?
+7”AffA
+=?
+”A
+=AÆ?	ÍÄAÆAQÏ?	æ‘AQÏAı√?	è«Aı√A	ôö?	]RA	ôöA
+=q?	'mA
+=qA
+·H?ÓA
+·HAÖ?±9AÖA(ˆ?p€A(ˆAÃÕ?,ÚAÃÕAp§?ÂtAp§A{?ö]A{A∏R?K§A∏RA\)?˘BA\)A  ?£0A  A£◊?IgA£◊AGÆ?Î‡AGÆAÎÖ?äìAÎÖAè\?%yAè\A33?ºåA33A◊
+?O√A◊
+Az·?ﬂAz·A∏?jÑA∏A¬è?ÒˇA¬èAff?uÉAffA
+=?ıA
+=AÆ?pÜAÆAQÏ? ÁˆAQÏAı√? [SAı√Aôö>ˇï(AôöA=q>˛kcA=qA·H>˝9KA·HAÖ>˚˛–AÖA(ˆ>˙ªÂA(ˆAÃÕ>˘pzAÃÕAp§>¯ÇAp§A{>ˆøÓA{A∏R>ıZØA∏RA\)>ÛÏ∏A\)A   >Úu˙A   A £◊>ˆgA £◊A!GÆ>ÔmA!GÆA!ÎÖ>Ì‹ÜA!ÎÖA"è\>ÏBA"è\A#33>Íû§A#33A#◊
+>ËÚA#◊
+A$z·>Á<MA$z·A%∏>Â}RA%∏A%¬è>„µA%¬èA&ff>·„uA&ffA'
+=>‡vA'
+=A'Æ>ﬁ$A'ÆA(QÏ>‹6A(QÏA(ı√>⁄>åA(ı√A)ôö>ÿ=jA)ôöA*=q>÷2öA*=qA*·H>‘A*·HA+Ö>—ˇºA+ÖA,(ˆ>œ◊êA,(ˆA,ÃÕ>Õ•~A,ÃÕA-p§>ÀixA-p§A.{>…#nA.{A.∏R>∆”SA.∏RA/\)>ƒyA/\)A0  >¬∞A0  A0£◊>ø¶A0£◊A1GÆ>Ω-A1GÆA1ÎÖ>∫©”A1ÎÖA2è\>∏"A2è\A333>µÉ¸A333A3◊
+>≤·RA3◊
+A4z·>∞4A4z·A5∏>≠|7A5∏A5¬è>™π©A5¬èA6ff>ßÏ^A6ffA7
+=>•GA7
+=A7Æ>¢1VA7ÆA8QÏ>üC|A8QÏA8ı√>úJ´A8ı√A9ôö>ôF‘A9ôöA:=q>ñ7ÍA:=qA:·H>ì›A:·HA;Ö>è¯†A;ÖA<(ˆ>å»#A<(ˆA<ÃÕ>âåZA<ÃÕA=p§>ÜE5A=p§A>{>ÇÚ¶A>{A>∏R>)<A>∏RA?\)>xV A?\)A@  >qkŸ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
